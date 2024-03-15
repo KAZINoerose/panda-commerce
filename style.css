@@ -7,18 +7,38 @@
 }
 .in{
     padding-left: 100px;
+  
     
 }
+.in i {
+    background-color: lightgray;
+   padding-top: 9px;
+   padding-bottom: 11px;
+   padding-right: 5PX;
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+   padding-left: 20px; 
+   margin-left: 330px;
+   position: absolute;
+}
+
+
 .in input{
-    border: 2px solid black;
-    width: 200px;
+    border: 2px solid lightgray;
+    width: 330px;
     height: 30px;
     border-radius: 15px;
     background-color: lightgray;
+    align-items: center;
+    padding-left: 10px;
+
+}
+.in input:focus{
+    outline: none;
 
 }
 .ft a {
-    padding-left: 60px;
+    padding-left: 30px;
     text-decoration:none;
     color: #707070;
 }
@@ -140,6 +160,13 @@ span{
     color: white;
 }
 /* 4et section */
+.ghj{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin-right:40px;
+   padding-left: 30px;
+    padding-bottom: 30px;
+}
 .er{
     display: flex;
    padding-left: 100px;
@@ -186,53 +213,65 @@ span{
 }
 .sd{
     background-color: #FFFFFF;
-    
+    border-radius: 15px;
+    margin-right:40px;
+   padding-left: 30px;
+    padding-bottom: 30px;
 }
 .yt{
     text-align: center;
     width: 80%;
 }
 /* 6rt section */
-.qw{
-    background-color: #FFF2F1;
-    margin: 100px;
-    border-radius: 10px;
-}
-.ow{
-    display: flex;
-    padding-left: 35%;
-    font-family:Poppins ;
-    padding-bottom: 200px;
-  
-}
-.ow input{
-   
-  padding-left:200px ;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
 
-.qw{
-    padding-top: 200px;
-    /* padding-left: 400px; */
+
+.hnk{
+    background-color: #F4F4F4;
+    padding-bottom: 80px;
 }
-.ji a{
-    text-decoration: none;
-background-image: linear-gradient(#FF589B,#FF136F);
-border-radius: 5px;
-color: white;
-padding: 5px 20px 15px 20px;
+.qw{
+font-family: Poppins;
+margin: 100px;
+border-radius: 15px;
+background-color: #fff2f1;
+padding-bottom: 80px;
+padding-top: 80px;
 
 }
-.ol h1{
+.ol{
     text-align: center;
     font-size: 35px;
-    
 }
- .ol p {
-    text-align: center; 
+.jkl{
+    font-size: 20px;
+    text-align: center;
+}
+.ow input{
+    width: 300px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    margin-left: 26.7%;
+    outline: none;
+    font-size: 20px;
+    position: absolute;
+    border-top-left-radius:5px ;
+    border-bottom-left-radius: 5px;
    
 }
+.bnm a {
+    position: relative;
 
+    text-decoration: none;
+    background-image: linear-gradient(#FF589B,#FF136F);
+    color: white;
+    padding-left: 10px;
+    padding-bottom: 21px;
+    padding-right: 10px;
+    padding-top:5px ;
+    margin: 53.7%;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius: 5px;
+
+    
+}
 
